@@ -1,15 +1,20 @@
-import { ConfigProvider } from "antd";
+import { ConfigProvider, App as AntApp } from "antd";
 import { theme } from "./theme";
 import * as S from "./App.styles";
-import { Header, Welcome } from "./layers";
+import { Contact, ExperiencesWith, Header, Projects, Welcome } from "./layers";
 
 function App() {
   return (
     <ConfigProvider theme={theme}>
-      <S.Layout>
-        <Header />
-        <Welcome />
-      </S.Layout>
+      <AntApp>
+        <S.Layout>
+          <Header />
+          <Welcome />
+          <ExperiencesWith />
+          <Projects />
+          <Contact />
+        </S.Layout>
+      </AntApp>
     </ConfigProvider>
   );
 }
