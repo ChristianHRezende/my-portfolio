@@ -11,6 +11,7 @@ export interface CardProps {
 
 const Card = (props: CardProps) => {
   const { description, imageAlt, imageSrc, href, title } = props;
+
   return (
     <a href={href}>
       <S.Card
@@ -21,7 +22,7 @@ const Card = (props: CardProps) => {
             alt={imageAlt}
             src={imageSrc}
             height={"225px"}
-            width={"390px"}
+            width={"100%"}
           />
         }
       >

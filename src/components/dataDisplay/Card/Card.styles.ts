@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors, glow } from "../../../theme/variables";
+import { breakpoints, colors, glow } from "../../../theme/variables";
 import { Card as AntCard } from "antd";
 
 export const Card = styled(AntCard)`
@@ -11,6 +11,9 @@ export const Card = styled(AntCard)`
   &:hover {
     border-color: ${colors.colorSecondary};
     animation: ${glow} 1s ease-in-out infinite;
+  }
+  @media (max-width: ${breakpoints.medium}px) {
+    width: 98%;
   }
 `;
 
