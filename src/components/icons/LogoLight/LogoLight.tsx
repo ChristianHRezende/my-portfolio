@@ -6,7 +6,6 @@ interface LogoLightProps {
 }
 
 const LogoLight = (props: LogoLightProps) => {
-  console.log(props);
   const {
     width = 400,
     height = 400,

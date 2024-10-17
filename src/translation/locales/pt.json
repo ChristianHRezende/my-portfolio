@@ -1,0 +1,31 @@
+{
+  "at_f": "na",
+  "at_m": "no",
+  "present": "Atual",
+  "welcome": "Eu planejo, construo e entrego soluções com ",
+  "welcome_highlight": "qualidade",
+  "resume": "Sou Analista Sênior de Sistemas com mais de 10 anos de experiência em desenvolvimento de software, capaz de atuar com excelência em desenvolvimento de aplicações WEB e mobile.",
+  "resume_footer": "Sou Analista Sênior de Sistemas com mais de 10 anos de experiência em desenvolvimento de software, capaz de atuar com excelência em desenvolvimento de aplicações WEB e mobile.",
+  "get_in_touch": "Entre em contato",
+  "download_cv": "Baixar CV",
+  "experience_with": "EXPERIÊNCIA COM",
+  "experience": "EXPERIÊNCIA",
+  "projects": "PRINCIPAIS PROJETOS",
+  "contact": "Contato",
+  "see_more": "Acesse para saber mais",
+  "projects_list": {
+    "sirio": "Aplicativo para paciêntes",
+    "bb": "Aplicativo para clientes",
+    "atena": "LMS para treinamento de colaboradores",
+    "stuo": "Gestão de serviços da Stuo",
+    "superDigital": "Gestão de serviços para clientes"
+  },
+  "experience_list": {
+    "it": "Atuo com aplicativos móveis auxiliando no planejamento, construção e entrega de features, também realizo mentoria para programadores do programa de treinamento da empresa. Atuando com React Native.",
+    "vortigo_full": "Atuei no planejamento, construção, entrega e manutenção de aplicação de treinamento de colaboradores utilizando Java e React JS.",
+    "vortigo_react": "Atuei no planejamento, construção, entrega de soluções de gestão de despesas e outros serviços bancários utlizando React JS, React Native e Java. Realizei mentoria e onboarding de novos desenvolvedores do time.",
+    "nova": "Atuei no planejamento, construção, entrega do módulo de assistência de um aplicativo bancário.",
+    "npdi": "Atuei em projetos de pesquisa e desenvolvimento de projetos do nucleo utilizando JAVA e React JS.",
+    "keymax": "Atuei como trainee em planejamento, construção e entrega de aplicações desktop para campanhas marketing, produtos utilizando software embarcado utilizando JAVA."
+  }
+}

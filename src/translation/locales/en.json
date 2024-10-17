@@ -1,0 +1,31 @@
+{
+  "at_f": "at",
+  "at_m": "at",
+  "present": "Present",
+  "welcome": "I plan, build and deliver ",
+  "welcome_highlight": "quality solutions",
+  "resume": "I am a senior analyst of systems with over 10 years of experience in software development, capable of working with excellence in web and mobile development development.",
+  "resume_footer": "I am a senior analyst of systems with over 10 years of experience in software development, capable of working with excellence in web and mobile development development.",
+  "get_in_touch": "Get in touch",
+  "download_cv": "Download CV",
+  "experience_with": "EXPERIENCE WITH",
+  "experience": "EXPERIENCE",
+  "projects": "MAIN PROJECTS",
+  "contact": "Contact",
+  "see_more": "See more",
+  "projects_list": {
+    "sirio": "Hospital Patients APP",
+    "bb": "Bank Clients APP",
+    "atena": "Market Contributors LMS",
+    "stuo": "Stuo services management",
+    "superDigital": "Bank Clients APP"
+  },
+  "experience_list": {
+    "it": "I work with mobile applications assisting in the planning, construction and delivery of features, I also perform mentoring to programmers of the company's training program.Acting with react native.",
+    "vortigo_full": "I worked in the planning, construction, delivery and maintenance of employee training application using Java and React JS.",
+    "vortigo_react": "I worked in the planning, construction, delivery of expense management solutions and other banking services using React JS, React Native and Java.I performed the Mentoria and onboarding of new developers of the team.",
+    "nova": "I worked in the planning, construction, delivery of the assistance module of a bank application.",
+    "npdi": "I worked in Nucleo Research and Project Development Projects using Java and React JS.",
+    "keymax": "I worked as a trainee in planning, construction and delivery of desktop applications for marketing campaigns, products using shipped software using Java."
+  }
+}

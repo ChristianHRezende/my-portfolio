@@ -213,7 +213,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.25.7"
 
-"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.5", "@babel/runtime@^7.23.2", "@babel/runtime@^7.23.6", "@babel/runtime@^7.23.9", "@babel/runtime@^7.24.4", "@babel/runtime@^7.24.7", "@babel/runtime@^7.24.8", "@babel/runtime@^7.25.6":
+"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7", "@babel/runtime@^7.21.0", "@babel/runtime@^7.22.5", "@babel/runtime@^7.23.2", "@babel/runtime@^7.23.6", "@babel/runtime@^7.23.9", "@babel/runtime@^7.24.4", "@babel/runtime@^7.24.7", "@babel/runtime@^7.24.8", "@babel/runtime@^7.25.0", "@babel/runtime@^7.25.6":
   version "7.25.7"
   resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/@babel/runtime/-/runtime-7.25.7.tgz#7ffb53c37a8f247c8c4d335e89cdf16a2e0d0fb6"
   integrity sha1-f/tTw3qPJHyMTTNeic3xai4ND7Y=
@@ -1101,7 +1101,7 @@ csstype@3.1.3, csstype@^3.0.2, csstype@^3.1.3:
   resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
   integrity sha1-2A/ylNEU+w5qxQD7+FtgE31+/4E=
 
-dayjs@^1.11.11:
+dayjs@^1.11.11, dayjs@^1.11.13:
   version "1.11.13"
   resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/dayjs/-/dayjs-1.11.13.tgz#92430b0139055c3ebb60150aa13e860a4b5a366c"
   integrity sha1-kkMLATkFXD67YBUKoT6GCktaNmw=
@@ -1390,6 +1390,20 @@ has-flag@^4.0.0:
   version "4.0.0"
   resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
+
+html-parse-stringify@^3.0.1:
+  version "3.0.1"
+  resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/html-parse-stringify/-/html-parse-stringify-3.0.1.tgz#dfc1017347ce9f77c8141a507f233040c59c55d2"
+  integrity sha1-38EBc0fOn3fIFBpQfyMwQMWcVdI=
+  dependencies:
+    void-elements "3.1.0"
+
+i18next@^23.16.0:
+  version "23.16.0"
+  resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/i18next/-/i18next-23.16.0.tgz#6127b49a30c19ba5caf0de8aeb3e15df60f7f01e"
+  integrity sha1-YSe0mjDBm6XK8N6K6z4V32D38B4=
+  dependencies:
+    "@babel/runtime" "^7.23.2"
 
 ignore@^5.2.0, ignore@^5.3.1:
   version "5.3.2"
@@ -2013,6 +2027,26 @@ react-dom@^18.3.1:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
 
+react-error-boundary@^4.1.0:
+  version "4.1.0"
+  resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/react-error-boundary/-/react-error-boundary-4.1.0.tgz#7f6cb4ed1df6b820c35ab69aeae257493fc73ed7"
+  integrity sha1-f2y07R32uCDDWraa6uJXST/HPtc=
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+
+react-i18next@^15.0.3:
+  version "15.0.3"
+  resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/react-i18next/-/react-i18next-15.0.3.tgz#01606062f7f81f9b3a88f388e0a8097f8230f5d4"
+  integrity sha1-AWBgYvf4H5s6iPOI4KgJf4Iw9dQ=
+  dependencies:
+    "@babel/runtime" "^7.25.0"
+    html-parse-stringify "^3.0.1"
+
+react-icons@^5.3.0:
+  version "5.3.0"
+  resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/react-icons/-/react-icons-5.3.0.tgz#ccad07a30aebd40a89f8cfa7d82e466019203f1c"
+  integrity sha1-zK0Howrr1AqJ+M+n2C5GYBkgPxw=
+
 react-is@^18.2.0:
   version "18.3.1"
   resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
@@ -2260,6 +2294,11 @@ vite@^5.4.8:
     rollup "^4.20.0"
   optionalDependencies:
     fsevents "~2.3.3"
+
+void-elements@3.1.0:
+  version "3.1.0"
+  resolved "https://pkgs.dev.azure.com/hsl-dev/_packaging/tempo-design-system/npm/registry/void-elements/-/void-elements-3.1.0.tgz#614f7fbf8d801f0bb5f0661f5b2f5785750e4f09"
+  integrity sha1-YU9/v42AHwu18GYfWy9XhXUOTwk=
 
 which@^2.0.1:
   version "2.0.2"
