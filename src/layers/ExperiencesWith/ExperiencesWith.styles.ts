@@ -1,5 +1,5 @@
 import { Flex } from "antd";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { glow } from "../../theme/variables";
 
 export const Container = styled(Flex)`
