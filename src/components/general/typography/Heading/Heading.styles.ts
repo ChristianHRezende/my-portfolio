@@ -3,7 +3,10 @@ import styled, { css } from "styled-components";
 import { colors } from "../../../../theme/variables";
 import { StyledHeadingProps } from "./Heading.types";
 
-const DefaultHeading = styled(Typography.Title)<StyledHeadingProps>`
+const DefaultHeading = styled(Typography.Title).withConfig({
+  shouldForwardProp: (prop) =>
+    prop !== "textAlign" && prop !== "noDefaultMargin",
+})<StyledHeadingProps>`
   font-family: "Poppins";
   color: ${({ color = "secondary" }) =>
     color === "primary"

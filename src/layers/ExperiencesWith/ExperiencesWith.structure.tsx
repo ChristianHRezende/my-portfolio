@@ -11,8 +11,8 @@ const Experiences = () => {
       <Heading level={3}>{t("experience_with")}</Heading>
       <S.IconsContainer gap={30} wrap justify="center">
         {getStackList().map(({ icon: Icon, href, ...restProps }) => (
-          <a href={href} target="_blank">
-            <Icon key={restProps.title} {...restProps} />
+          <a key={restProps.title} href={href} target="_blank">
+            <Icon {...restProps} />
           </a>
         ))}
       </S.IconsContainer>

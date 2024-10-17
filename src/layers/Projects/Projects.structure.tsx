@@ -13,7 +13,7 @@ const Projects = () => {
       <Heading level={2}>{t("projects")}</Heading>
       <S.CardContainer wrap gap={60} justify="center">
         {data.map((cardProps) => (
-          <Card {...cardProps} />
+          <Card key={cardProps.title} {...cardProps} />
         ))}
       </S.CardContainer>
     </S.Container>

@@ -3,7 +3,10 @@ import styled, { css } from "styled-components";
 import { colors } from "../../../../theme/variables";
 import { ParagraphProps } from "./Paragraph.types";
 
-export const Paragraph = styled(Typography.Paragraph)<ParagraphProps>`
+export const Paragraph = styled(Typography.Paragraph).withConfig({
+  shouldForwardProp: (prop) =>
+    prop !== "fullWidth" && prop !== "textAlign" && prop !== "verticalAlign",
+})<ParagraphProps>`
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;

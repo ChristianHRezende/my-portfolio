@@ -16,7 +16,6 @@ const resources = {
 i18n.use(initReactI18next).init({
   resources,
   lng: "pt",
-  debug: true,
   interpolation: {
     escapeValue: false,
   },
