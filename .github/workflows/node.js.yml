@@ -43,7 +43,7 @@ jobs:
       - name: Run Vitest
         run: npm run test --no-watch
       - name: Run Cypress
-        run: npm run cypress:run:prod --env=https://christianhrezende.github.io/my-portfolium/
+        run: npm run cypress:run --env=https://christianhrezende.github.io/my-portfolium/
       - name: Build
         run: npm run build
       - name: Setup Pages
