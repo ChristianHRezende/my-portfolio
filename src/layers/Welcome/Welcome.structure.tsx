@@ -5,6 +5,7 @@ import { Heading, Paragraph } from "../../components";
 import * as S from "./Welcome.styles";
 import { SECTIONS } from "../../constants";
 import { useIsMobileBreakpoint } from "../../hooks";
+import { WELCOME_CONTAINER_TEST_ID } from "../../constants/testIds";
 
 const mail = import.meta.env.VITE_EMAIL_ADDRESS;
 
@@ -18,7 +19,13 @@ const Welcome = () => {
     }[i18n.language] ?? "";
 
   return (
-    <S.Container id={SECTIONS.WELCOME} align="center" vertical gap={40}>
+    <S.Container
+      id={SECTIONS.WELCOME}
+      align="center"
+      vertical
+      gap={40}
+      data-testid={WELCOME_CONTAINER_TEST_ID}
+    >
       <S.Image src={avatar} alt="avatar" preview={false} />
       <Heading>
         {t("welcome")}

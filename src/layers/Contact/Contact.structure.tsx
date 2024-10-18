@@ -4,7 +4,7 @@ import * as S from "./Contact.styles";
 import { useTranslation } from "react-i18next";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { colors } from "../../theme/variables";
-import { SECTIONS } from "../../constants";
+import { CONTACT_CONTAINER_TEST_ID, SECTIONS } from "../../constants";
 
 const mail = import.meta.env.VITE_EMAIL_ADDRESS;
 const linkedin = import.meta.env.VITE_LINKEDIN_URL;
@@ -14,7 +14,7 @@ const Contact = () => {
   const { t } = useTranslation();
 
   return (
-    <Footer id={SECTIONS.CONTACT}>
+    <Footer id={SECTIONS.CONTACT} data-testid={CONTACT_CONTAINER_TEST_ID}>
       <Flex align="start" justify="space-between" vertical gap={24}>
         <Heading level={3} color="primary">
           {t("contact")}
