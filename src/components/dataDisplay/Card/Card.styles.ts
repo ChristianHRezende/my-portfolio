@@ -12,7 +12,7 @@ export const Card = styled(AntCard)`
     border-color: ${colors.colorSecondary};
     animation: ${glow} 1s ease-in-out infinite;
   }
-  @media (max-width: ${breakpoints.medium}px) {
+  @media (max-width: ${breakpoints.small}px) {
     width: 98%;
   }
 `;
