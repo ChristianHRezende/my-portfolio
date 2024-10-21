@@ -1,9 +1,9 @@
 {
-  "name": "my-portfolium",
+  "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://christianhrezende.github.io/my-portfolium/",
+  "homepage": "https://christianhrezende.github.io/my-portfolio/",
   "scripts": {
     "cypress:run:ui": "cypress open",
     "cypress:run": "cypress run --no-runner-ui",

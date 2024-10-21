@@ -36,7 +36,7 @@ This document has the objective of explain the steps to run the cypress tests lo
 // AFTER
 
 {
-  "host": "http://XXX.XXX.XXX/my-portfolium/"
+  "host": "http://XXX.XXX.XXX/my-portfolio/"
 }
 ```
 
