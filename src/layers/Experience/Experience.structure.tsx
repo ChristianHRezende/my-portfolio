@@ -1,11 +1,12 @@
-import { t } from "i18next";
 import { ExperienceDetail, Heading } from "../../components";
 import { getExperienceData } from "./Experience.data";
 import * as S from "./Experience.styles";
 import { SECTIONS } from "../../constants";
 import { EXPERIENCE_CONTAINER_TEST_ID } from "../../constants/testIds";
+import { useTranslation } from "react-i18next";
 
 const Experience = () => {
+  const { t } = useTranslation();
   const data = getExperienceData();
   return (
     <S.Container
