@@ -39,8 +39,8 @@ jobs:
       - name: Install dependencies
         run: npm install 
         
-      # - name : Run tests
-      #   run: npm run test --no-watch      
+      - name : Run tests
+        run: npm run test --no-watch      
       
       - name: Build
         run: npm run build
