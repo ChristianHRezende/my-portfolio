@@ -41,6 +41,10 @@ jobs:
       #   run: npm run test --no-watch      
       - name: Build
         run: npm run build
+
+      - name: Remover symlinks do dist
+        run: find dist -type l -delete   
+        
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
