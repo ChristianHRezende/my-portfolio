@@ -45,13 +45,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Passo de depuração para verificar se existem symlinks
-      - name: Check for symlinks in dist directory
-        run: find dist -type l
-
-      # Passo para remover symlinks (se necessário)
-      - name: Remove symlinks from dist
-        run: find dist -type l -delete
+      - name: Remover symlinks do dist
+        run: find dist -type l -delete   
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
