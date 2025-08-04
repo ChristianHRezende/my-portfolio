@@ -23,11 +23,6 @@ function App() {
               <ExperiencesWith />
               <Projects />
               <Experience />
-              <a href="br.org.hsl.siriolibanes" style={{
-                fontWeight=800,
-                fontSize=52,
-                color="#FFF"
-              }}>TEST LINK</a>
             </Content>
             <Contact />
           </ErrorBoundary>
