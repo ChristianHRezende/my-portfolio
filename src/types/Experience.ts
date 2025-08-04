@@ -2,7 +2,8 @@ interface Experience {
   companyName: string;
   positionName: string;
   description: string;
-  imageUrl: string;
+  imageUrl?: string;
+  iconName?: string;
   initialDate: Date;
   isCurrentJob?: boolean;
   finalDate: Date;
